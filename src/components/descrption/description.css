@@ -1,6 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .description_fld {
   width: 45%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  position: relative;
+  top: 9em;
+  left: 5em;
+  border-right: 3px solid grey;
+  padding-right: 10px;
+}
+
+h3 {
+  padding-bottom: 8px;
+  color: orangered;
+  font-size: 26px;
+  font-family: emoji;
+}
+
+.introduction {
+  padding-bottom: 8px;
+    font-size: 34px;
+    margin-left: 25px;
+    color: rgb(105, 88, 94);
+    width: 48%;
+    border-right: 2px solid grey;
+}
+
+.description {
+  padding-bottom: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 27px;
+  color: rgb(190, 92, 105);
+}
+
+.button_fld {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.btn_1 {
+  background-color: transparent;
+  font-size: 17px;
+  font-family: ui-monospace;
+  border-radius: 11px;
+  font-weight: 600;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.btn_1:hover {
+  cursor: pointer;
+  background-color: rgb(187, 126, 76);
+  border-color: rgb(187, 126, 76);
+  color: aliceblue;
 }

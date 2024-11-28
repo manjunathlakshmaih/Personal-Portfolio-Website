@@ -8,9 +8,9 @@ function App() {
       <div className="heading_fld">
         <NavMenue />
       </div>
-      <div className='introduction_fld'>
+      {/* <div className='introduction_fld'> */}
         <Description />
-      </div>
+      {/* </div> */}
     </div>
   );
 }

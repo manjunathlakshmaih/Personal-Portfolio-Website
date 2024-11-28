@@ -8,7 +8,7 @@ const Description = () => {
         <h1 className='introduction'>I am Manjunath L</h1>
         <p className='description'>I`m a Web Developer with extensive experience for over 1 year. My expertise is to create and Websites design graphic design and many more....</p>
       </div>
-      <div>
+      <div className='button_fld'>
         <button className='btn_1'>View Work</button>
         <button className='btn_1'>Hire Me</button>
       </div>
