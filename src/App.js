@@ -8,7 +8,7 @@ function App() {
       <div className="heading_fld">
         <NavMenue />
       </div>
-      <div>
+      <div className='introduction_fld'>
         <Description />
       </div>
     </div>

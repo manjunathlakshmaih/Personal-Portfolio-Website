@@ -1,3 +1,12 @@
 .App {
   align-items: center;
 }
+
+.introduction_fld {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  top: 8em;
+  left: 13em;
+}
