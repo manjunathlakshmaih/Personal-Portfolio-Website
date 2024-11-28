@@ -1,0 +1,37 @@
+.header_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.nav_items {
+  font-size: 20px;
+  display: flex;
+  gap: 33px;
+}
+
+h1 {
+  font-size: 42px;
+  font-family: emoji;
+  color: forestgreen;
+}
+
+.nav_items,
+a {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: #000;
+  font-weight: 600;
+  padding: 5px 2px;
+  border-radius: 14px;
+  transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+}
+
+a:hover {
+  background-color: #000;
+  color: white;
+}

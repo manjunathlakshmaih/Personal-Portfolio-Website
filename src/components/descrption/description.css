@@ -1,0 +1,6 @@
+.description_fld {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
