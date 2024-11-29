@@ -6,11 +6,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../public/front-page.jpg");
+  /* background-image: url("../public/front-page.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 400px; */
+  background-color: white;
 }
 
 code {

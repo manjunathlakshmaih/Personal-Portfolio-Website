@@ -1,65 +1,70 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .description_fld {
-  width: 45%;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  position: relative;
-  top: 9em;
-  left: 5em;
-  border-right: 3px solid grey;
-  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8em;
+  padding: 23px;
+  gap: 11em;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h3 {
-  padding-bottom: 8px;
-  color: orangered;
-  font-size: 26px;
-  font-family: emoji;
+.details_cont {
+  max-width: 600px;
+  flex: 1; 
 }
 
 .introduction {
-  padding-bottom: 8px;
-    font-size: 34px;
-    margin-left: 25px;
-    color: rgb(105, 88, 94);
-    width: 48%;
-    border-right: 2px solid grey;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #333;
+  font-family: monospace;
 }
 
 .description {
-  padding-bottom: 12px;
-  font-size: 16px;
-  font-weight: 500;
-  margin-left: 27px;
-  color: rgb(190, 92, 105);
+  color: #666;
+  line-height: 1.8;
+  font-family: cursive;
+  font-size: 21px;
+  margin: 0;
 }
 
-.button_fld {
+.highlight {
+  color: #ff6347; /* You can change this color to whatever you want */
+  font-weight: bold;
+  font-style: italic;
+}
+
+.greeting {
+  font-size: 1.5rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.logo_fld {
+  width: 120px;
+  height: 120px;
+  background-color: black; 
+  border-radius: 50%;
   display: flex;
-  justify-content: space-evenly;
-  width: 70%;
-  margin-top: 20px;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateX(30px); 
 }
 
-.btn_1 {
-  background-color: transparent;
-  font-size: 17px;
-  font-family: ui-monospace;
-  border-radius: 11px;
-  font-weight: 600;
-  border-color: transparent;
-  background-color: transparent;
-}
+.logo {
+  font-size: 3rem;
+  font-family: cursive;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 
-.btn_1:hover {
-  cursor: pointer;
-  background-color: rgb(187, 126, 76);
-  border-color: rgb(187, 126, 76);
-  color: aliceblue;
+  /* font-size: 42px;
+  font-family: cursive;
+  color: black;
+  margin: 0 27px; */
 }

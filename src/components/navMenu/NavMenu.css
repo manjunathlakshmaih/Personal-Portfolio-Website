@@ -6,19 +6,20 @@
   margin-left: 50px;
   margin-right: 30px;
   margin-top: 28px;
-  border-bottom: 3px solid rgb(107, 104, 104);
+  background-color: #f0edeb;
+  border-radius: 15px;
 }
 
 .nav_items {
-  font-size: 20px;
-  display: flex;
   gap: 33px;
+  margin-right: 28px;
 }
 
-h1 {
+.logo-1 {
   font-size: 42px;
-  font-family: emoji;
-  color: forestgreen;
+  font-family: cursive;
+  color: black;
+  margin: 0 27px;
 }
 
 .nav_items,
@@ -26,14 +27,14 @@ a {
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
-  color: #000;
+  color: gray;
   font-weight: 600;
-  padding: 5px 2px;
-  border-radius: 14px;
+  padding: 4px 4px;
+  border-radius: 11px;
   transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+  font-size: 16px;
 }
 
 a:hover {
-  background-color: #000;
-  color: white;
+  color: #000;
 }

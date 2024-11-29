@@ -1,5 +1,5 @@
-import Description from './components/descrption/description';
-import NavMenue from './components/navMenu/NavMenue';
+import Description from "./components/descrption/description";
+import NavMenue from "./components/navMenu/NavMenue";
 import "./App.css";
 
 function App() {
@@ -8,9 +8,9 @@ function App() {
       <div className="heading_fld">
         <NavMenue />
       </div>
-      {/* <div className='introduction_fld'> */}
+      <div className="details_container">
         <Description />
-      {/* </div> */}
+      </div>
     </div>
   );
 }
