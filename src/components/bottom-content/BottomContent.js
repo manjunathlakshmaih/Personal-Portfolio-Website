@@ -26,22 +26,46 @@ const BottomContent = () => {
     <div className="BottomContent-fld">
       <div className="fld-1">
         <ul className="list-items">
-          <li><a href="http://localhost:3000/#">Home</a></li>
-          <li><a href="http://localhost:3000/#">Blog</a></li>
-          <li><a href="http://localhost:3000/#">About</a></li>
-          <li><a href="http://localhost:3000/#">DashBoard</a></li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="http://localhost:3000/#">Home</a>
+          </li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="http://localhost:3000/#">Blog</a>
+          </li>
+          <li className="itms-fld">
+            <a className="itm-fld" href="http://localhost:3000/#">About</a>
+          </li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="http://localhost:3000/#">DashBoard</a>
+          </li>
         </ul>
         <ul className="list-items">
-          <li><a href="#">Guestbook</a></li>
-          <li><a href="#">Uses</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Links</a></li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="#">Guestbook</a>
+          </li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="#">Uses</a>
+          </li>
+          <li className="itmes-fld">
+            <a className="itm-fld"href="#">Projects</a>
+          </li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="#">Links</a>
+          </li>
         </ul>
         <ul className="list-items">
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="https://github.com/manjunathlakshmaih">GitHub</a></li>
-          <li><a href="https://www.youtube.com/">YouTube</a></li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="#">Facebook</a>
+          </li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="#">Instagram</a>
+          </li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="https://github.com/manjunathlakshmaih">GitHub</a>
+          </li>
+          <li className="itmes-fld">
+            <a className="itm-fld" href="https://www.youtube.com/">YouTube</a>
+          </li>
         </ul>
       </div>
 

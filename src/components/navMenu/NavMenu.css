@@ -22,8 +22,15 @@
   margin: 0 27px;
 }
 
-.nav_items,
-a {
+.nav_items {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  list-style: none;
+}
+
+/* .nav_items, */
+.nav-link {
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
@@ -35,6 +42,6 @@ a {
   font-size: 16px;
 }
 
-a:hover {
+.nav-link:hover {
   color: #000;
 }

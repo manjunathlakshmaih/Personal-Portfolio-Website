@@ -48,3 +48,20 @@
   font-size: 16px;
   color: #333;
 }
+
+.nav_items,
+.itm-fld{
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: gray;
+  font-weight: 600;
+  padding: 4px 4px;
+  border-radius: 11px;
+  transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+  font-size: 16px;
+}
+
+.itm-fld:hover {
+  color: #000;
+}
