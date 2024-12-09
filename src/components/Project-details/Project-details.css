@@ -1,5 +1,48 @@
-.Project-details{
-  width: 94;  
-  height: 100px;
-  background-color: red;
+.project-container {
+  width: 100%;
+  height: auto; 
+  
+}
+
+.Project-details {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+  justify-content: center;
+  margin-top: 20px; 
+  margin-bottom: 30px;
+}
+
+.project-content {
+  width: 60%;
+  background-color: orangered;
+  height: 167px;
+}
+.project-content-1 {
+  width: 60%;
+  height: 167px;
+  background-color: orangered;
+}
+.project-content-2 {
+  width: 60%;
+  height: 167px;
+  background-color: yellow;
+}
+.project-content-3 {
+  width: 60%;
+  height: 167px;
+  background-color: blue;
+}
+.project-content-4 {
+  width: 60%;
+  height: 167px;
+  background-color: gray;
+}
+.project-content-5 {
+  width: 60%;
+  height: 167px;
+  background-color: black;
 }

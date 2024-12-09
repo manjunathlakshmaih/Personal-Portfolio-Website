@@ -5,6 +5,7 @@ import BottomContent from "./components/bottom-content/BottomContent";
 import NavMenue from "./components/navMenu/NavMenue";
 import ProjectDetails from "./components/Project-details/Project-details";
 import AboutPage from "./pages/AboutPage/Aboutpage";
+// import ProjectDetails from "./components/Project-details/Project-details";
 
 import "./App.css";
 
@@ -24,8 +25,13 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
           </Routes>
         </div>
-
-        <BottomContent />
+        <div className="about-fld">
+          <AboutPage />
+        </div>
+        <ProjectDetails />
+        <div className="bottom-fld">
+          <BottomContent />
+        </div>
       </div>
     </Router>
   );

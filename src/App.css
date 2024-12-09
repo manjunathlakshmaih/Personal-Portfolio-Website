@@ -23,3 +23,13 @@
   flex-wrap: wrap;
   align-items: center;
 }
+
+.bottom-fld {
+  margin-bottom: 30px;
+}
+
+.about-fld {
+  border-top: 3px solid #5b626e;
+  border-bottom: 3px solid #5b626e;
+  margin-bottom: 30px;
+}
