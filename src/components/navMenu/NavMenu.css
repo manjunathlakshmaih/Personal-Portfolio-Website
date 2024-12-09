@@ -45,3 +45,9 @@
 .nav-link:hover {
   color: #000;
 }
+
+.items{
+  display: flex;
+  list-style: none;
+  gap: 23px;
+}

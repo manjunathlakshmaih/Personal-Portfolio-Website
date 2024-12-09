@@ -1,35 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .about-page {
-  font-family: Arial, sans-serif;
-  color: #333;
-  padding: 20px;
-  line-height: 1.6;
+  width: 92%;
+  height: auto;
+  margin-top: 53px;
+  margin-bottom: 70px;
 }
 
 .about-header {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 75px;
 }
 
-.about-photo {
-  width: 150px;
-  border-radius: 50%;
-  margin-top: 20px;
+.about-header h1 {
+  display: flex;
+  justify-content: center;
+  color: grey;
+}
+.about-header p {
+  font-size: 18px;
+  line-height: 47px;
+  display: flex;
+  justify-content: center;
 }
 
-.about-details, .experience-section {
-  margin: 20px 0;
+.about-details {
+  line-height: 33px;
+}
+
+.skills {
+  margin-left: 60px;
+  line-height: 46px;
+}
+
+.experience-section {
+  line-height: 43px;
+}
+
+.parargraph {
+  margin-left: 22px;
+}
+
+.header-part {
+  display: flex;
+  justify-content: center;
 }
 
 .about-footer {
-  text-align: center;
-  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 30px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
 
-.about-footer a {
-  margin: 0 10px;
-  color: #007BFF;
+.links a {
   text-decoration: none;
 }
-
-.about-footer a:hover {
-  text-decoration: underline;
+.links a:hover {
+  color: black;
+  background: orangered;
 }
