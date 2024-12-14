@@ -5,14 +5,6 @@ const AboutPage = () => {
     <div className="about-page">
       <header className="about-header">
         <h1>Hi, I'm Manjunath L!</h1>
-<<<<<<< Updated upstream
-=======
-        <p>A passionate Frontend Developer specializing in React and JavaScript.</p>
-      </header>
-      
-      <section className="about-details">
-        <h2>About Me</h2>
->>>>>>> Stashed changes
         <p>
           A passionate Frontend Developer specializing in React and JavaScript.
         </p>
