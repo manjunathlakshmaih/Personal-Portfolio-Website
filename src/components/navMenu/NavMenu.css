@@ -46,8 +46,15 @@
   color: #000;
 }
 
+<<<<<<< Updated upstream
 .items{
   display: flex;
   list-style: none;
   gap: 23px;
+=======
+.items {
+  display: flex;
+  list-style: none;
+  gap: 35px
+>>>>>>> Stashed changes
 }

@@ -4,11 +4,15 @@
   justify-content: center;
   margin-top: 8em;
   padding: 23px;
-  gap: 11em;
+  gap: 21em;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< Updated upstream
   margin-bottom: 57px;
+=======
+  margin-bottom: 50px;
+>>>>>>> Stashed changes
 }
 
 .details_cont {
