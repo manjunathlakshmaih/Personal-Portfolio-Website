@@ -44,8 +44,8 @@
   color: #000;
 }
 
-.items{
+.items {
   display: flex;
   list-style: none;
-  gap: 23px;
+  gap: 35px
 }
