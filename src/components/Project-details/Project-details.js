@@ -1,22 +1,30 @@
-import "./Project-details.css";
-const ProjectDetails = () => {
+import React from 'react';
+
+const ProjectCard = ({ project }) => {
+  const { title, description, technologies, github, demo, image } = project;
+
   return (
-    <div className="project-container">
-      <h2>Projects</h2>
-      <div className="Project-details">
-        <div className="project-content">
-          <h1>
-            HTML-CSS
-          </h1>
-        </div>
-        <div className="project-content-1"></div>
-        <div className="project-content-2"></div>
-        <div className="project-content-3"></div>
-        <div className="project-content-4"></div>
-        <div className="project-content-5"></div>
+    <div className="project-card">
+      <img src={image} alt={title} className="project-image" />
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <ul className="tech-list">
+        {technologies.map((tech, index) => (
+          <li key={index}>{tech}</li>
+        ))}
+      </ul>
+      <div className="project-links">
+        <a href={github} target="_blank" rel="noopener noreferrer" className="project-link">
+          GitHub
+        </a>
+        {demo && (
+          <a href={demo} target="_blank" rel="noopener noreferrer" className="project-link">
+            Live Demo
+          </a>
+        )}
       </div>
     </div>
   );
 };
 
-export default ProjectDetails;
+export default ProjectCard;

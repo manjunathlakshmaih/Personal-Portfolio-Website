@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Description from "./components/descrption/description";
 import BottomContent from "./components/bottom-content/BottomContent";
 import NavMenue from "./components/navMenu/NavMenue";
-import ProjectDetails from "./components/Project-details/Project-details";
+import ProjectSection from "./pages/Project-section/Project-section";
 import AboutPage from "./pages/AboutPage/Aboutpage";
-// import ProjectDetails from "./components/Project-details/Project-details";
 
 import "./App.css";
 
@@ -20,15 +19,15 @@ function App() {
           <Routes>
             <Route path="/" element={<Description />} />
 
-            <Route path="/projects" element={<ProjectDetails />} />
+            {/* <Route path="/projects" element={<ProjectSection />} /> */}
 
             <Route path="/about" element={<AboutPage />} />
           </Routes>
+          <Routes></Routes>
         </div>
-        <div className="about-fld">
-          <AboutPage />
+        <div className="ProjectSection">
+          <ProjectSection />
         </div>
-        <ProjectDetails />
         <div className="bottom-fld">
           <BottomContent />
         </div>

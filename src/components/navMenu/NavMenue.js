@@ -18,7 +18,7 @@ const NavMenu = () => {
             <Link to="" className="nav-link">Dashboard</Link>
           </li>
           <li className="list-1">
-            <Link to="" className="nav-link">Projects</Link>
+            <Link to="/projects" className="nav-link">Projects</Link>
           </li>
           <li className="list-1">
             <Link to="/about" className="nav-link">about</Link>

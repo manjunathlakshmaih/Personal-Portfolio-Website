@@ -4,10 +4,8 @@
 }
 .BottomContent-fld {
   background-color: #f0edeb;
-  width: 94%;
-  height: auto;
+  width: 100%;
   display: flex;
-  margin-left: 40px;
   box-sizing: border-box;
   border-radius: 15px;
   flex-direction: column;
