@@ -17,16 +17,19 @@ function App() {
         </div>
         <div className="details_container">
           <Routes>
-            <Route path="/" element={<Description />} />
-
-            {/* <Route path="/projects" element={<ProjectSection />} /> */}
-
+            <Route path="/" element={
+              <>
+                <Description />
+                <ProjectSection />
+              </>
+            } />
+            <Route path="/projects" element={
+              <>
+                <ProjectSection /> 
+              </>
+            } />
             <Route path="/about" element={<AboutPage />} />
           </Routes>
-          <Routes></Routes>
-        </div>
-        <div className="ProjectSection">
-          <ProjectSection />
         </div>
         <div className="bottom-fld">
           <BottomContent />

@@ -9,13 +9,13 @@ const NavMenu = () => {
       <nav className="nav_items">
         <ul className="items">
           <li className="list-1">
-            <Link to="" className="nav-link" >Blog</Link>
+            <Link to="#" className="nav-link" >Blog</Link>
           </li>
           <li className="list-1">
-            <Link to="" className="nav-link">Guestbook</Link>
+            <Link to="#" className="nav-link">Guestbook</Link>
           </li>
           <li className="list-1">
-            <Link to="" className="nav-link">Dashboard</Link>
+            <Link to="#" className="nav-link">Dashboard</Link>
           </li>
           <li className="list-1">
             <Link to="/projects" className="nav-link">Projects</Link>
@@ -24,7 +24,7 @@ const NavMenu = () => {
             <Link to="/about" className="nav-link">about</Link>
           </li>
           <li className="list-1">
-            <Link to="" className="nav-link">Uses</Link>
+            <Link to="#" className="nav-link">Uses</Link>
           </li>
         </ul>
       </nav>
